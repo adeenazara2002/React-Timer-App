@@ -17,6 +17,13 @@ const TimerScreen = () => {
         <div className="timerCurrent">01:20:00</div>
         <div className="timerNext">01:20:01</div>
       </div>
+
+      {/* Button */}
+ 
+ <div class='btnDiv'>  <button class='startBtn'>
+        Start
+      </button></div>
+     
     </div>
   );
 };
