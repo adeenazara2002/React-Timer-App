@@ -10,6 +10,13 @@ const TimerScreen = () => {
         <li>Seconds</li>
       </ul>
       <div className="bottomBorder"></div>
+
+      {/* Timer Display */}
+      <div className="timerDisplay">
+        <div className="timerPrevious">00:19:59</div>
+        <div className="timerCurrent">01:20:00</div>
+        <div className="timerNext">01:20:01</div>
+      </div>
     </div>
   );
 };
