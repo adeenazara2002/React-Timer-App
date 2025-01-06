@@ -1,0 +1,28 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #26015b;
+  height: 60px;
+  padding: 0 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.plusIcon {
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.menuIcon {
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navTitle {
+  font-size: 22px;
+  font-weight: bold;
+}

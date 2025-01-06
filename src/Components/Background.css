@@ -1,38 +1,36 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .background {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(135deg, #3f005a, #a024ff);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Blobs */
-  .background::before,
-  .background::after {
-    content: '';
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, #651a89, #3f005a);
-    border-radius: 50%;
-    filter: blur(100px);
-    z-index: 1;
-  }
-  
-  .background::before {
-    top: -100px;
-    left: -100px;
-  }
-  
-  .background::after {
-    bottom: -150px;
-    right: -150px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.background {
+  /* width: 100vw; */
+  height:100vh;
+  background: linear-gradient(135deg, #3f005a, #a024ff);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blobs */
+.background::before,
+.background::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #651a89, #3f005a);
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 1;
+}
+
+.background::before {
+  top: -100px;
+  left: -100px;
+}
+
+.background::after {
+  bottom: -150px;
+  right: -150px;
+}

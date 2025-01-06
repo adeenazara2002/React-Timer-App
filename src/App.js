@@ -1,11 +1,14 @@
 import React from "react";
 import Background from "./Components/Background";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <div>
+      <NavBar />
+
       <Background />
-      {/* Add your timer UI or other content here */}
+
     </div>
   );
 }
