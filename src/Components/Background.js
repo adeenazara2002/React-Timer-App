@@ -1,9 +1,10 @@
 import React from "react";
 import "./Background.css";
 
-const Background = () => {
+const Background = ({ children }) => {
   return (
     <div className="background">
+      {children}
     </div>
   );
 };

@@ -1,0 +1,28 @@
+.timer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #b1a7c1;
+}
+
+.timer li {
+  font-size: 20px;
+}
+
+.timer .bottomBorder {
+  border-bottom: 1px solid #b1a7c1;
+  width: 300px;
+  margin-top: 10px;
+}

@@ -1,16 +1,16 @@
 import React from "react";
 import Background from "./Components/Background";
 import NavBar from "./Components/NavBar";
+import TimerScreen from "./Components/TimerScreen";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <Background>
       <NavBar />
+      <TimerScreen />
 
-      <Background />
-
-    </div>
+    </Background>
   );
-}
+};
 
 export default App;
